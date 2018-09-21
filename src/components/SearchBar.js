@@ -6,7 +6,7 @@ class SearchBar extends React.Component {
         <div>
           <div className="container">
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-3 col-md-4">
                 <div className="form-group">
                   <i className="fa fa-search" />
                   <input
@@ -17,7 +17,7 @@ class SearchBar extends React.Component {
                   />
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-md-4">
                 <div className="form-group">
                   <i className="fa fa-map-marker" />
                   <input
@@ -28,7 +28,7 @@ class SearchBar extends React.Component {
                   />
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-md-4">
                 <button
                   className="btn btn-primary"
                   type="button"

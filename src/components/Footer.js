@@ -2,7 +2,7 @@ import React from "react";
 class Footer extends React.Component {
   render() {
     return (
-      <div>
+      <div className="footer-container">
         <div className="footer-dark">
           <footer>
             <div className="container">
